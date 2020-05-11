@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 const apiKey = '0edc2e1ffef7f9d0db4ae60f34b8d147';
 
@@ -19,4 +20,9 @@ const kButtonTextStyle = TextStyle(
 
 const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
+);
+
+const kSpinKit = SpinKitDoubleBounce(
+  color: Colors.white,
+  size: 100.0,
 );
